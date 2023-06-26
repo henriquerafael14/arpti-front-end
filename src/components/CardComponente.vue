@@ -38,16 +38,13 @@ export default {
     // ProgressSpinner
   },
   methods: {
-    alertFunc () {
-      alert('instalar!')
-    },
 
     baixarInstalador () {
       alert('Baixar Instalador')
     },
 
     obterInstalacao () {
-      const apiUrl = 'https://localhost:44348​/api​/Robo​/instalacao-winrar'
+      const apiUrl = 'http://localhost:44348​/api​/Robo​/instalacao-winrar'
       this.carregando = true
       axios.get(apiUrl)
         .then(response => {
@@ -55,7 +52,7 @@ export default {
         })
         .catch(error => {
           console.log('error', error)
-          setTimeout(this.alertFunc, 3000)
+          alert('instalar!')
         })
         .finally(() => {
           this.carregando = false

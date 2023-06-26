@@ -5,7 +5,8 @@
         "subtitulo": "Automatização de instalações",
         "descricao": "Automatização de instalção de programas",
         "imagem": "./assets/winrar.jpg",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "subtitulo": "Navegador Web",
         "descricao": "O Opera GX é uma versão especial do navegador Opera criada especificamente para gamers. O navegador inclui recursos exclusivos, como limitadores de CPU, de RAM e de rede que ajudam a obter o máximo dos jogos e da navegação.",
         "imagem": "",
-        "icone": ""
+        "link": "https://www.opera.com/pt-br/computer/thanks?ni=eapgx&os=windows",
+        "endpoint": "/instalacao-operagx"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "subtitulo": "Ferramenta de compactação de arquivos",
         "descricao": "WinRAR é uma poderosa ferramenta de compactação para abrir, criar e descompactar arquivos RAR, ZIP e em outros formatos, com inúmeras funções adicionais integradas que auxiliam na organização de seus arquivos.",
         "imagem": "./assets/winrar.jpg",
-        "icone": ""
+        "link": "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-622br.exe",
+        "endpoint": "/instalacao-winrar"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "subtitulo": "Lorem ipsum",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         "imagem": "",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "subtitulo": "Lorem ipsum",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         "imagem": "",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "subtitulo": "Lorem ipsum",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         "imagem": "",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "subtitulo": "Lorem ipsum",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         "imagem": "",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "subtitulo": "Lorem ipsum",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         "imagem": "",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     },
     {
         "id": 9,
@@ -69,6 +77,7 @@
         "subtitulo": "Lorem ipsum",
         "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
         "imagem": "",
-        "icone": ""
+        "link": "",
+        "endpoint": ""
     }
 ]
