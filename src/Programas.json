@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nome": "Arpti",
+        "subtitulo": "Automatização de instalações",
+        "descricao": "Automatização de instalção de programas",
+        "imagem": "./assets/winrar.jpg",
+        "icone": ""
+    },
+    {
+        "id": 2,
+        "nome": "OperaGX",
+        "subtitulo": "Navegador Web",
+        "descricao": "O Opera GX é uma versão especial do navegador Opera criada especificamente para gamers. O navegador inclui recursos exclusivos, como limitadores de CPU, de RAM e de rede que ajudam a obter o máximo dos jogos e da navegação.",
+        "imagem": "",
+        "icone": ""
+    },
+    {
+        "id": 3,
+        "nome": "WinRAR",
+        "subtitulo": "Ferramenta de compactação de arquivos",
+        "descricao": "WinRAR é uma poderosa ferramenta de compactação para abrir, criar e descompactar arquivos RAR, ZIP e em outros formatos, com inúmeras funções adicionais integradas que auxiliam na organização de seus arquivos.",
+        "imagem": "./assets/winrar.jpg",
+        "icone": ""
+    },
+    {
+        "id": 4,
+        "nome": "Lorem ipsum",
+        "subtitulo": "Lorem ipsum",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "imagem": "",
+        "icone": ""
+    },
+    {
+        "id": 5,
+        "nome": "Lorem ipsum",
+        "subtitulo": "Lorem ipsum",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "imagem": "",
+        "icone": ""
+    },
+    {
+        "id": 6,
+        "nome": "Lorem ipsum",
+        "subtitulo": "Lorem ipsum",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "imagem": "",
+        "icone": ""
+    },
+    {
+        "id": 7,
+        "nome": "Lorem ipsum",
+        "subtitulo": "Lorem ipsum",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "imagem": "",
+        "icone": ""
+    },
+    {
+        "id": 8,
+        "nome": "Lorem ipsum",
+        "subtitulo": "Lorem ipsum",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "imagem": "",
+        "icone": ""
+    },
+    {
+        "id": 9,
+        "nome": "Lorem ipsum",
+        "subtitulo": "Lorem ipsum",
+        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "imagem": "",
+        "icone": ""
+    }
+]
