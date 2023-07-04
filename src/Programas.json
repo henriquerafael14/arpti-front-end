@@ -3,7 +3,7 @@
         "id": 1,
         "nome": "Arpti",
         "subtitulo": "Automatização de instalações",
-        "descricao": "Automatização de instalção de programas",
+        "descricao": "Robô de automação de instalação de programas. Esta poderosa ferramenta, você poderá automatizar totalmente o processo de instalação de programas, eliminando a necessidade de qualquer intervenção manual. ",
         "imagem": "./assets/winrar.jpg",
         "link": "",
         "endpoint": ""
@@ -28,30 +28,30 @@
     },
     {
         "id": 4,
-        "nome": "Lorem ipsum",
-        "subtitulo": "Lorem ipsum",
-        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "nome": "VLC Player",
+        "subtitulo": "Reprodutor de Mídia",
+        "descricao": "O VLC Player é um reprodutor de mídia popular e confiável que oferece suporte a uma ampla gama de formatos e recursos, sendo uma escolha popular para muitos usuários que desejam reproduzir e gerenciar seus arquivos de mídia.",
         "imagem": "",
         "link": "",
-        "endpoint": ""
+        "endpoint": "/instalacao-vlc"
     },
     {
         "id": 5,
-        "nome": "Lorem ipsum",
-        "subtitulo": "Lorem ipsum",
-        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "nome": "Visual Studio Code",
+        "subtitulo": "Editor de código-fonte",
+        "descricao": "O VS Code é amplamente utilizado por desenvolvedores de software devido à sua interface intuitiva, recursos poderosos e extensibilidade. Ele oferece suporte a várias linguagens de programação, como JavaScript, Python, HTML, CSS e muitas outras.",
         "imagem": "",
         "link": "",
-        "endpoint": ""
+        "endpoint": "instalacao-vscode"
     },
     {
         "id": 6,
-        "nome": "Lorem ipsum",
-        "subtitulo": "Lorem ipsum",
-        "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "nome": "Python",
+        "subtitulo": "Pacote de instalação",
+        "descricao": "Python é uma linguagem de programação de alto nível. Python foi projetado com uma sintaxe simples e legível, enfatizando a facilidade de leitura e escrita de código, o que a torna uma escolha popular tanto para iniciantes quanto para programadores experientes",
         "imagem": "",
         "link": "",
-        "endpoint": ""
+        "endpoint": "/instalacao-python"
     },
     {
         "id": 7,

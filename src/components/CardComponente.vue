@@ -1,8 +1,8 @@
 <template>
   <div class="card flex align-items-center justify-content-center">
-    <Card style="width: 25em">
+    <Card >
         <template #header>
-          <img :src="programa.imagem" alt="Imagem do Item" />
+          <!-- <img :src="programa.imagem" alt="Imagem do Programa" /> -->
         </template>
         <template #title>{{ programa.nome }}</template>
         <template #subtitle>{{ programa.subtitulo }}</template>
@@ -12,8 +12,8 @@
             </p>
         </template>
         <template #footer>
-            <Button label="Baixar" @click="baixarInstalador"/>
-            <Button label="Instalar" severity="secondary" style="margin-left: 0.5em"  @click="obterInstalacao"/>
+            <Button v-if="programa.nome == 'Arpti'" label="Baixar" @click="baixarInstalador"/>
+            <Button v-if="programa.nome != 'Arpti'" label="Instalar" severity="secondary" style="margin-left: 0.5em"  @click="obterInstalacao"/>
         </template>
       </Card>
       <!-- <ProgressSpinner class="indicador-carregando" strokeWidth="8" fill="var(--surface-ground)" animationDuration=".5s" aria-label="Custom ProgressSpinner" v-if="carregando"/> -->
@@ -40,19 +40,17 @@ export default {
   methods: {
 
     baixarInstalador () {
-      alert('Baixar Instalador')
+      window.open(this.programa.link, '_blank')
     },
 
     obterInstalacao () {
-      const apiUrl = 'http://localhost:44348​/api​/Robo​/instalacao-winrar'
       this.carregando = true
-      axios.get(apiUrl)
+      axios.get('https://localhost:44348/api/Robo' + this.programa.endpoint)
         .then(response => {
           console.log('response', response)
         })
         .catch(error => {
-          console.log('error', error)
-          alert('instalar!')
+          console.log('error', error.message)
         })
         .finally(() => {
           this.carregando = false
